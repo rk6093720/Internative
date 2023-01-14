@@ -80,14 +80,33 @@ const MainForm = ({ isSignup }) => {
                   <p className="text-center font-semibold mx-4 mb-0">Or</p>
                 </div>
                 {isSignup ? (
+                    <>
                   <div className="mb-6">
                     <input
                       type="text"
                       className="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
-                      id="name"
-                      placeholder="Full Name"
+                      id="firstName"
+                      placeholder="First Name"
                     />
                   </div>
+                  <div className="mb-6">
+                    <input
+                      type="text"
+                      className="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                      id="lastName"
+                      placeholder="Last Name"
+                    />
+                  </div>
+                  <div className="mb-6">
+                    <input
+                      type="text"
+                      className="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                      id="userName"
+                      placeholder="Username"
+                    />
+                  </div>
+                  </>
+                  
                 ) : null}
                 <div className="mb-6">
                   <input
