@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const MainForm = ({ isSignup }) => {
   return (
     <>
-      <section className="h-screen mb-20">
+      <section style={{marginBottom: isSignup && "200px"}} className="h-screen mb-20">
         {console.log(isSignup)}
         <div className="px-6 h-full text-gray-800">
           <div className="flex xl:justify-center lg:justify-between justify-center items-center flex-wrap h-full g-6">
