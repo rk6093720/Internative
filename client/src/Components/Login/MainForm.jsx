@@ -76,7 +76,7 @@ const MainForm = ({ isSignup }) => {
                   </button>
                 </div>
 
-                <div className="w-4/6 flex items-center my-4 before:flex-1 before:border-t before:border-gray-300 before:mt-0.5 after:flex-1 after:border-t after:border-gray-300 after:mt-0.5">
+                <div className="flex items-center my-4 before:flex-1 before:border-t before:border-gray-300 before:mt-0.5 after:flex-1 after:border-t after:border-gray-300 after:mt-0.5">
                   <p className="text-center font-semibold mx-4 mb-0">Or</p>
                 </div>
                 {isSignup ? (
@@ -84,7 +84,7 @@ const MainForm = ({ isSignup }) => {
                   <div className="mb-6">
                     <input
                       type="text"
-                      className="form-control block w-4/6 px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                      className="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                       id="firstName"
                       placeholder="First Name"
                     />
@@ -92,7 +92,7 @@ const MainForm = ({ isSignup }) => {
                   <div className="mb-6">
                     <input
                       type="text"
-                      className="form-control block w-4/6 px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                      className="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                       id="lastName"
                       placeholder="Last Name"
                     />
@@ -100,7 +100,7 @@ const MainForm = ({ isSignup }) => {
                   <div className="mb-6">
                     <input
                       type="text"
-                      className="form-control block w-4/6 px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                      className="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                       id="userName"
                       placeholder="Username"
                     />
@@ -111,7 +111,7 @@ const MainForm = ({ isSignup }) => {
                 <div className="mb-6">
                   <input
                     type="text"
-                    className="form-control block w-4/6 px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                    className="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                     id="email"
                     placeholder="Email address"
                   />
@@ -119,13 +119,13 @@ const MainForm = ({ isSignup }) => {
                 <div className="mb-6">
                   <input
                     type="password"
-                    className="form-control block w-4/6 px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                    className="form-control block w-full px-4 py-2 text-xl font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                     id="password"
                     placeholder="Password"
                   />
                 </div>
                 {!isSignup ? (
-                  <div className="w-4/6 flex justify-between items-center mb-6">
+                  <div className="flex justify-between items-center mb-6">
                     <div className="form-group form-check">
                       <input
                         type="checkbox"
